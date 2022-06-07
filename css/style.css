@@ -1,23 +1,44 @@
 body {
-  background pink;
+  background:pink;
 }
-
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; 
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
-}
+  
+  }
+  
+  /* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
+  div {
+    width: 700px;
+    margin: auto;
+    font-family: Helvetica Neue;
+    background: white;
+    padding: 30px;}
+  
+  
+  /* ID selector to select the element with id 'main-header' */
+  #main-header {
+    font-size:22px;
+    color: red;
+  }
+  
+  /* Class selector to select elements containing the class 'perspective-questions' */
+  .perspective-questions {
+    font-style: italic;
+  
+  }
 
 .completed {
-  font-family: 12px;
+  font-size:12px;
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc;
   text-decoration: underline;
 }
